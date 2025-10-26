@@ -14,7 +14,7 @@ import os
 # print("DataFrame saved to data/people.csv")
 
 df=pd.read_csv("data/people.csv")
-df.loc[df.shape[0]]=["David",40,"San Francisco"]
+df.loc[df.shape[0]]=["David",41,"San Francisco"]
 
 df.to_csv("data/people.csv", index=False)
 print("DataFrame saved to data/people.csv")
